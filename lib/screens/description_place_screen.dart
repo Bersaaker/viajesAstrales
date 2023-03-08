@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:super_viajes_astrales/screens/button_navigate.dart';
 import 'package:super_viajes_astrales/screens/review.dart';
 
 //stlees
@@ -72,6 +73,7 @@ class DescriptionPlaceScreen extends StatelessWidget {
       children: [
         titleAndStars,
         description,
+        const ButtonNavigate(buttonText: 'Navigate'),
       ],
     );
   }

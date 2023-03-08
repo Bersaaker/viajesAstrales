@@ -9,7 +9,7 @@ void main() {
 }
 
 class MainApp extends StatelessWidget {
-  final namePlace = "M. Shadows";
+  final namePlace = "Machu Pichu";
   final descriptionText =
       'Anim do irure amet ipsum laboris adipisicing duis velit eiusmod. Labore consequat proident exercitation nostrud sit. Lorem reprehenderit enim elit duis ut. \n\n Qui deserunt amet est incididunt nostrud cupidatat enim exercitation voluptate exercitation nostrud veniam laboris.';
 

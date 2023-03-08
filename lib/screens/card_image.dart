@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:super_viajes_astrales/screens/small_button.dart';
 
 class CardImage extends StatelessWidget {
   final String pathImage;
@@ -13,7 +14,7 @@ class CardImage extends StatelessWidget {
       height: 350,
       width: 250,
       margin: const EdgeInsets.only(
-        top: 80,
+        top: 65,
         left: 20,
       ),
       decoration: BoxDecoration(
@@ -31,6 +32,12 @@ class CardImage extends StatelessWidget {
           ]),
     );
 
-    return card;
+    return Stack(
+      alignment: const Alignment(0.9, 1.1),
+      children: [
+        card,
+        SmallButton(),
+      ],
+    );
   }
 }
